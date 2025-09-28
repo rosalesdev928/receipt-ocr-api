@@ -1,0 +1,17 @@
+# entornos / cache
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# configuración/secretos y BD local
+.env
+.env.*
+receipts.db
+
+# sistema
+.DS_Store
+Thumbs.db
